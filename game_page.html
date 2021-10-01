@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>The Quiz Begins</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1>The Quiz Begins!</h1>
+    <div id="playerscores">
+        <span>
+            <h2 id="player1_name"></h2>
+            <h2 id="player1_sore"></h2>
+        </span>
+        <br>
+        <span>
+            <h2 id="player2_name"></h2>
+            <h2 id="player2_sore"></h2>
+        </span>
+    </div>
+    <div class="container">
+		<center>
+			<h3 id="player_question"></h3>
+			<h3 id="player_answer"></h3>
+			<div id="output" class="col-lg-6"></div>
+
+
+			<br>
+			<br>
+
+			<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+			<input type="text" id="word" class="form-control" placeholder="Enetr Your Word">
+
+			<br>
+            <button onclick="send()" type="button" class="btn btn-success">Send</button>
+		</center>
+	</div>
+
+</body>
+
+</html>
